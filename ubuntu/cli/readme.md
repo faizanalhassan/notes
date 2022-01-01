@@ -30,7 +30,7 @@ curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 sudo apt -y install nodejs
 ```
 
-## redirect output to file
+## redirect output to file: ([ref](https://askubuntu.com/questions/625224/how-to-redirect-stderr-to-a-file))
 ```bash
 # Redirect stdout to one file and stderr to another file:
 
