@@ -42,3 +42,8 @@ command >out 2>&1
 # Redirect both to a file (this isn't supported by all shells, bash and zsh support it, for example, but sh and ksh do not):
 command &> out
 ```
+
+## kill screen session
+```
+screen -XS <session-id> quit
+```
